@@ -1,27 +1,64 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Profiles README DIO</span>
-</h1>
+# Desafio: Profile README  
 
-## Sobre o Projeto
-Página desenvolvida para fins didáticos para o curso **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/). Lembre-se de que Markdown é mais voltado para a documentação e apresentação de texto formatado, enquanto a remoção de bugs normalmente envolve a compreensão detalhada do código e o uso de ferramentas de desenvolvimento adequadas à linguagem de programação específica.
+Contribua no diretório **"Community"**, criando um **Profile README** contendo informações sobre você que deseje compartilhar com a comunidade. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da **Digital Innovation One**.  
 
-[![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://digitalinnovationone.github.io/dio-lab-open-source/)
+Inspire-se consultando os exemplos na pasta **"community"**, confira alguns utilitários na pasta **"utils"** e use sua criatividade para criar o seu 😊💙.  
 
-```
-docs/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-├── favicon.ico
-├── index.html
-└── README.md
-```
+---
 
-## Tecnologias
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
+## 📌 Instruções  
+
+1. **Faça um Fork deste repositório**;  
+
+2. **Clone o repositório localmente**:  
+   ```sh
+   git clone https://github.com/SEUUSERNAME/dio-lab-open-source.git
+   ```  
+
+3. **Adicione o remote upstream para manter seu repositório local atualizado**:  
+   ```sh
+   git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git
+   ```  
+   Para baixar e mesclar as alterações do repositório original, utilize:  
+   ```sh
+   git pull upstream main
+   ```  
+   Ou, para apenas baixar sem mesclar:  
+   ```sh
+   git fetch upstream main
+   ```  
+   Veja mais em: ["Primeiros Passos com Git e GitHub"](https://www.dio.me)  
+
+4. **Crie uma nova branch** e nomeie como `feat/community/seunomedeusuario` :  ` git checkout -b feat/community/seunomedeusuario`
+   Exemplo:  
+   ```sh
+   git checkout -b feat/community/falvojr
+   ```  
+
+6. **Dentro da pasta "community", crie um arquivo em Markdown (`.md`)** e nomeie com o mesmo nome do seu usuário no GitHub. Exemplo:  
+   ```sh
+   community/falvojr.md
+   ```  
+
+7. **Desenvolva o seu perfil**:  
+   - Veja exemplos na pasta **"community"**;  
+   - Adicione alguns dos utilitários presentes na pasta **"utils"**;  
+   - **Atenção:** Use os outros exemplos como inspiração, **não copie**!  
+
+8. **Adicione suas alterações à "staging area"**:  
+   ```sh
+   git add community/seunomedeusuario.md
+   ```  
+
+9. **Crie um commit com uma mensagem indicando a adição do seu perfil**:  
+   ```sh
+   git commit -m "feat: add seunomedeusuario profile"
+   ```  
+
+10. **Envie as alterações para o seu repositório remoto**:  
+   ```sh
+   git push origin feat/community/seunomedeusuario
+   ```  
+
+11. **Crie um Pull Request** no GitHub e pronto! 🚀  
+
